@@ -1,4 +1,5 @@
 package api;
+
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
@@ -13,6 +14,7 @@ public class MyApplication extends Application{
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
         h.add( HelloWorld.class );
+        h.add(PdfInfoDispatcher.class);
         return h;
     }
 }
