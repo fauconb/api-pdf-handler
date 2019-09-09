@@ -1,5 +1,6 @@
-package api;
+package api.fileManager;
 
+import api.Fichier;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.sun.org.glassfish.gmbal.Description;
